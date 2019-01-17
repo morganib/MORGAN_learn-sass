@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Alice');
+
+*{
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
 
 body {
   padding: 40px;
@@ -17,20 +23,27 @@ body {
   display: flex;
   height: 100vh;
   align-items: center;
-}
-
-.content {
-  font-family: 'Alice' , serif;
-  color: #fff;
-  background-color: #ffb5b2;
-  padding: 75px;
-
-
-  h1{
-    letter-spacing: 0.5em;
-    text-transform: uppercase;
+  justify-content: center;
+  .content {
+    width: 50vw;
+    padding: $gutter*3;
+    margin: 0 $gutter;
+    color: black;
+    background-color: $color-main;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.25);
+    box-shadow: 0 0 5px;
+    font-family: 'Alice' , serif;
+    color: #fff;
+    background-color: #ffb5b2;
   }
 }
+
+h1 {
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+
 
 
 /* .content span:nth-child(1){
