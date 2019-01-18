@@ -19,6 +19,8 @@ __il suffit de faire ceci la première fois, il n'y a pas besoin de le refaire l
 
 ## Lancement du serveur de dév
 ```bash
+cd
+npm install
 npm run serve
 ```
 Cela va lancer un serveur de développement sur votre machine. Vous devriez voir quelque chose de similaire
